@@ -1,3 +1,5 @@
+import CalculatorForm from '@/components/ui/forms/calculator-form'
+
 export default function Home() {
     return (
         <section className='flex-grow'>
@@ -16,6 +18,10 @@ export default function Home() {
                         <h3 className='text-xl font-medium text-center'>
                             Input your asset details below
                         </h3>
+
+                        <div className='mt-6 mb-20 w-full px-4 md:px-0'>
+                            <CalculatorForm />
+                        </div>
                     </div>
                 </div>
             </div>

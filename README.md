@@ -1,30 +1,54 @@
-# NextJS + Tailwind CSS + Typescript Starter Template
+# Tax Depreciation Calculator
 
-## 📦 phs-nextjs-starter
+## 📦 NextJS Tax Depreciation Calculator
 
-Made for [Parrow Horrizon Studio](https://parrowhorrizonstudio.com)
+A professional tax depreciation calculator built with Next.js, featuring straight-line depreciation calculations.
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/theodorusclarence/ts-nextjs-tailwind-starter)](https://github.com/Rowee13/phs-nextjs-starter/stargazers)
 
 ## Features
 
-This repo is setup based on personal preference.
-<br />(note: this repo is not yet done and still ongoing development)
+### 🧮 Tax Depreciation Calculator
 
-- Next JS 15 App Router
+- **Straight-line depreciation calculation** using the formula: (Asset Value - Salvage Value) / Useful Life
+- **Complete depreciation schedule** showing year-by-year breakdown
+- **Specific year lookup** to view depreciation details for any particular year
+- **Professional results display** with formatted currency (PHP)
+- **Form validation** with comprehensive error handling
+- **Responsive design** that works on all devices
+
+### 🛠️ Technical Stack
+
+- Next.js 15 with App Router
 - React 19
-- Typescript
-- Tailwind CSS
-- Pre-built components
-- ESlint - configured to personal standard preference
-- Prettier - Format the code consistently
-- Snippets - A collection of useful snippets
-- Zod - Form Validation
-- React Hook Form
+- TypeScript for type safety
+- Tailwind CSS for styling
+- Zod for form validation
+- React Hook Form for form management
+- Radix UI components for accessibility
 
-## Select your branch
+## How to Use
 
-To make a separate template for different use cases, branches are created. <br />(note: this repo is not yet done and still ongoing development)
+1. **Enter Asset Details:**
 
-- Base - for clean starter without ui libraries but has ESLint, Prettier setup and a simple initial layout with header, main, and footer components.
-- Master - this is a standard template used by Parrow Horrizon Studio for blog website
+    - Asset Value: Total purchase price of the asset
+    - Salvage Value: Estimated value at end of useful life
+    - Useful Life: Number of years the asset will be used
+    - Year (Optional): Specific year to highlight in results
+
+2. **Calculate:** Click "Calculate Depreciation" to see results
+
+3. **View Results:**
+    - Annual depreciation amount
+    - Complete depreciation schedule
+    - Specific year details (if specified)
+    - Book value progression over time
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view the calculator.
