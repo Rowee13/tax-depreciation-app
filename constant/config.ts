@@ -1,6 +1,5 @@
 export const siteConfig = {
-    title: 'PHS NextJS Starter',
-    description:
-        'A NextJS starter template created for Parrow Horrizon Studio.',
-    url: 'https://phs-next-starter.parrowhorrizonstudio.com',
+    title: 'Tax Depreciation Calculator',
+    description: 'A simple tax depreciation calculator.',
+    url: 'https://tax-depreciation-calculator.vercel.app',
 }
